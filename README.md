@@ -1,4 +1,1 @@
-isjaruleok
-==========
-
-Website to see if Ja Rule is doing well
+Andrew Sonta's Special Website
