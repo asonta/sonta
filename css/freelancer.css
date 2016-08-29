@@ -184,6 +184,8 @@ section {
 section h2 {
   margin: 0;
   font-size: 3em;
+  padding-bottom: 500px;
+  padding-top: 500px;
 }
 section.success {
   background: #18BC9C;
