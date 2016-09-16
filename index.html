@@ -15,7 +15,7 @@
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/freelancer.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -38,25 +38,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
                 <a class="navbar-brand" href="#page-top">Andrew Sonta</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">About</a>
-                    </li>
-                </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -67,107 +49,159 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-5">
                     <img class="img-responsive" src="img/profile.png" alt="">
-                     <div class="intro-text">
-                        <span class="name">Andrew Sonta</span>
-                        <hr class="star-light">
-                        <span class="skills">Research - Architecture - Photography</span>
+                    <div>
                     </div>
+                    <a href="https://www.linkedin.com/in/asonta" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                </div>
+                <div class="col-xs-7 text-left page-scroll">
+                	<h3>Research</h3>
+                	<p>I am a PhD student at Stanford University's <a href="http://uil.stanford.edu"> Urban Informatics Lab</a>.</p>
+                	<h3>Design</h2>
+                	<p>I have <a href="#work">worked on projects</a> ranging from a NZE house to a Chicago skyscraper.</p>
+                	<h3>Photos</h3>
+                	<p>I take a lot of <a href="http://asonta.tumblr.com"> film and digital photos</a>.
+                	<h3>Other Work</h3>
+                	<p>I have <a href="#otherwork">worked on other projects</a> including &mdash; my favorite &mdash; Northwestern University Dance Marathon.
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <!-- Work Grid Section -->
+    <section id="work">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
+                    <h2>Design and Analysis Projects</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                <div class="col-sm-4 work-item">
+                    <a href="#workModal1" class="work-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                            	<p>NZE Highrise</p>
                             </div>
                         </div>
-                        <img src="img/portfolio/226ebare.png" class="img-responsive" alt="">
+                        <img src="img/work/226e.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                <div class="col-sm-4 work-item">
+                    <a href="#workModal2" class="work-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <p>NZE House</p>
                             </div>
                         </div>
-                        <img src="img/portfolio/176section.png" class="img-responsive" alt="">
+                        <img src="img/work/176section.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                <div class="col-sm-4 work-item">
+                    <a href="#workModal3" class="work-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <p>Chicago's Livability</p>
                             </div>
                         </div>
-                        <img src="img/portfolio/271bound.png" class="img-responsive" alt="">
+                        <img src="img/work/271bound.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                <div class="col-sm-4 work-item">
+                    <a href="#workModal4" class="work-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <p>Exhibition Center</p>
                             </div>
                         </div>
-                        <img src="img/portfolio/220shades.jpg" class="img-responsive" alt="">
+                        <img src="img/work/220shades.jpg" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                <div class="col-sm-4 work-item">
+                    <a href="#workModal5" class="work-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <p>Lighting Study</p>
                             </div>
                         </div>
-                        <img src="img/portfolio/256plan.png" class="img-responsive" alt="">
+                        <img src="img/work/256curtain.png" class="img-responsive" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                <div class="col-sm-4 work-item">
+                    <a href="#workModal6" class="work-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
+                                <p>Landscape Design</p>
                             </div>
                         </div>
-                        <img src="img/portfolio/capelevation.jpg" class="img-responsive" alt="">
+                        <img src="img/work/capelevation.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 work-item">
+                    <a href="#workModal7" class="work-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>House</p>
+                            </div>
+                        </div>
+                        <img src="img/work/houseext.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 work-item">
+                    <a href="#workModal8" class="work-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>School</p>
+                            </div>
+                        </div>
+                        <img src="img/work/schoolcourt2.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 work-item">
+                    <a href="#workModal9" class="work-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>Tower</p>
+                            </div>
+                        </div>
+                        <img src="img/work/shearsky.png" class="img-responsive" alt="">
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="success" id="about">
+    <hr>
+
+    <!-- Other Work Grid Section -->
+    <section id="otherwork">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
+                    <h2>Other Projects</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>I am a graduate student at Stanford, where I study the intersection of human dynamics and the built environment.  I'm currently working on a framework that will help us understand the importance of spatial and occupant network dynamics when it comes to occupant-driven energy use in buidlings.</p>
+                <div class="col-sm-6 otherwork-item">
+                    <a href="#otherworkModal1" class="otherwork-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>NUDM</p>
+                            </div>
+                        </div>
+                        <img src="img/otherwork/djrucku5.jpg" class="img-responsive" alt="">
+                    </a>
                 </div>
-                <div class="col-lg-4">
-                	<p><p>Beyond the buliding, I am interested in the relationship between the physical design of urban spaces and indicators of livability and vibrancy in communities.  In this area of research, I am particularly interested in measuring, and optimizing for, walkablity.</p>
+                <div class="col-sm-6 otherwork-item">
+                    <a href="#otherworkModal2" class="otherwork-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <p>Hard Earth</p>
+                            </div>
+                        </div>
+                        <img src="img/otherwork/rolls.png" class="img-responsive" alt="">
+                    </a>
                 </div>
             </div>
         </div>
@@ -176,29 +210,7 @@
 
     <!-- Footer -->
     <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="http://asonta.tumblr.com/" class="btn-social btn-outline"><i class="fa fa-fw fa-tumblr"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/asonta" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                     
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <div class="footer-below">
             <div class="container">
                 <div class="row">
@@ -219,7 +231,7 @@
     </div>
 
     <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="work-modal modal fade" id="workModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -232,10 +244,11 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Net-Zero Mixed-Use Highrise</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/226e.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/226e2.png" class="img-responsive img-centered" alt="">
-                            <p>This is a net-zero energy mixed-use highrise designed primarily for natural daylighting and ventilation. In addition to design work, our team carried out the theoretical calculations necessary to show that rooftop and parking lot PV panels would be sufficient to power this 40,000 sq. ft. tower.</p>
+                            <hr>
+                            <p align="justify">A net-zero energy mixed-use highrise designed primarily for natural daylighting and ventilation. In addition to design work, our team carried out the theoretical calculations necessary to show that rooftop and parking lot PV panels would be sufficient to power this 40,000 sq. ft. tower.</p>
+                            <hr>
+                            <img src="img/work/226e.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/226e2.png" class="img-responsive img-centered" alt="">
                             <ul class="list-inline item-details">
                                 <li>Class:
                                     <strong>Advanced Energy Efficient Building Design
@@ -253,7 +266,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="work-modal modal fade" id="workModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -266,12 +279,14 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Net-Zero House</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/176plan.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/176section.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/176ext.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/176int.png" class="img-responsive img-centered" alt="">
-                            <p>This is a net-zero energy house that uses its geometry to take advantage of the sun for heating in the winter months and in the early morning, and to block the sun during the summer months and in the afternoon.</p>
+                            <hr>
+                            <p align="justify">A net-zero energy house that uses its geometry to take advantage of the sun for heating in the winter months and in the early morning, and to block the sun during the summer months and in the afternoon.</p>
+                            <hr>
+                            <img src="img/work/176plan.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/176section.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/176ext.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/176int.png" class="img-responsive img-centered" alt="">
+                            
                             <ul class="list-inline item-details">
                                 <li>Class:
                                     <strong>Energy Efficient (Small) Buildings
@@ -289,7 +304,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="work-modal modal fade" id="workModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -302,9 +317,10 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Spatial Sustainability in Chicago</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/271poster.png" class="img-responsive img-centered" alt="">
-                            <p>Assessment of livability across the neighborhoods of Chicago.</p>
+                            <hr>
+                            <p align="justify">An assessment of livability across the neighborhoods of Chicago.  I use data about each neighborhood's walkability, intersection density, bikability, urban greenspace, and landmarks to assign an overall livability score to each neighborhood.  The map reveals inequality across the city resulting from its current design.</p>
+                            <hr>
+                            <img src="img/work/271poster.png" class="img-responsive img-centered" alt="">
                             <ul class="list-inline item-details">
                                 <li>Class:
                                     <strong>New Indicators of Well-Being and Sustainability
@@ -322,7 +338,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="work-modal modal fade" id="workModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -335,12 +351,13 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Exhibition Center</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/220plan.jpg" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/220ext.jpg" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/220shades.jpg" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/220shading.png" class="img-responsive img-centered" alt="">
-                            <p>Sustainable Exhibition Center</p>
+                            <hr>
+                            <p align="justify">An exhibition center designed for Jasper Ridge, near Palo Alto, CA.  The building is designed with two wings, separated by an atrium space.  The building is characterized by its shading: horizontal shades shield the souther curtain walls from the summer sun, while in the glass atrium, operable overhead shades selectively let in sunlight when heating is required.</p>
+                            <hr>
+                            <img src="img/work/220plan.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/work/220ext.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/work/220shades.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/work/220shading.png" class="img-responsive img-centered" alt="">
                             <ul class="list-inline item-details">
                                 <li>Class:
                                     <strong>Building Information Modeling Integration
@@ -358,7 +375,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="work-modal modal fade" id="workModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -371,12 +388,14 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Restaurant Lighting Study</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/256plan.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/256curtain.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/256punch.png" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/256light.png" class="img-responsive img-centered" alt="">
-                            <p>This is a restaraunt lighting study in Chicago, IL where we compared fenestration and interior lighting alternatives from an energ perspective and from a rendering and ambiance perspective.</p>
+                            <hr>
+                            <p align="justify">A restaraunt lighting study in Chicago, IL in which we compared fenestration and interior lighting alternatives from two perspectives: energy and sustainability, and aesthetics and ambiance.</p>
+                            <hr>
+                            <img src="img/work/256plan.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/256curtain.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/256punch.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/256light.png" class="img-responsive img-centered" alt="">
+                            
                             <ul class="list-inline item-details">
                                 <li>Class:
                                     <strong>Building Systems
@@ -394,7 +413,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="work-modal modal fade" id="workModal6" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -407,12 +426,13 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Northwestern University Senior Capstone</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/capelevation.jpg" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/capbeach.jpg" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/caproad.jpg" class="img-responsive img-centered" alt="">
-                            <img src="img/portfolio/capfield.png" class="img-responsive img-centered" alt="">
-                            <p>In this senior capstone design project, I served as the architect and the project manager. We designed a stormwater management solution for the town of Winnetka, IL that made use of a tunnel running from the town to Lake Michigan.</p>
+                            <hr>
+                            <p align="justify">In our senior capstone design project, I served as the architect and the project manager. We designed a stormwater management solution for the town of Winnetka, IL that made use of a tunnel running from the town to Lake Michigan.  My task was to redesign the landscapes both at the start of the tunnel and at the end of the tunnel.  I also coordinated an 8-person team of engineers working on the structure, environmental performance, and constructuability of our solution.</p>
+                            <hr>
+                            <img src="img/work/capelevation.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/work/capbeach.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/work/caproad.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/work/capfield.png" class="img-responsive img-centered" alt="">
                             <ul class="list-inline item-details">
                                 <li>Class:
                                     <strong>Northwestern Senior Capstone Design
@@ -430,6 +450,184 @@
             </div>
         </div>
     </div>
+    <div class="work-modal modal fade" id="workModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Northwestern Architecture: House</h2>
+                            <hr>
+                            <p align="justify">A house design for Evanston, IL.</p>
+                            <hr>
+                            <img src="img/work/houseext.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/houseint.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/housedin.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/houseback.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/houseplans.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/housesection.png" class="img-responsive img-centered" alt="">
+                            <ul class="list-inline item-details">
+                                <li>Class:
+                                    <strong>Northwestern Architectural Engineering and Design I
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>December 2014
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="work-modal modal fade" id="workModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Northwestern Architecture: School</h2>
+                            <hr>
+                            <p align="justify">A school design for Evanston, IL.  The straighforward exterior gives way to a vibrant, engaining hallway and courtyard design meant to connect students to light and nature.</p>
+                            <hr>
+                            <img src="img/work/schoolcourt.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/schoolhall.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/schoolback.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/schoolfront.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/schoolsite.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/schoolplan.png" class="img-responsive img-centered" alt="">
+                            <ul class="list-inline item-details">
+                                <li>Class:
+                                    <strong>Northwestern Architectural Engineering and Design II
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>March 2015
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="work-modal modal fade" id="workModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Northwestern Architecture: Tower</h2>
+                            <hr>
+                            <p align="justify">A tower design in Chicago, IL at the site of the Chicago Spire.  This mixed use hotel and residential tower is split in program by a characteristic sky garden.  The tower rises above and between Lake Shore Drive, enabling straighforward access for residents and guests.</p>
+                            <hr>
+                            <img src="img/work/shear.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/shearsky.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/shearrend.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/shearsunrise.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/shearground.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/shearsite1.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/shearsite2.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/sheardiagram.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/shearhotel.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/sheargarden.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/sheargarden2.png" class="img-responsive img-centered" alt="">
+                            <img src="img/work/shearrest.png" class="img-responsive img-centered" alt="">
+                            <ul class="list-inline item-details">
+                                <li>Class:
+                                    <strong>Northwestern Architectural Engineering and Design III
+                                    </strong>
+                                </li>
+                                <li>Date:
+                                    <strong>June 2015
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="otherwork-modal modal fade" id="otherworkModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Northwestern University Dance Marathon</h2>
+                            <hr>
+                            <p align="justify">I served on the Executive Board as Productions Chair for NUDM 2015, a philanthropy event in which over 1400 students came together to dance for 30 hours straight and raise money and awareness for the <a href="http://www.starlight.org"> Starlight Children's Foundation </a> and the <a href="http://www.ecf.org"> Evanston Commmunity Foundation </a>.</p>
+                            <p align="justify">We raised $1.13 million dollars in total, the second highest cash total in the NUDM's history.  Our donation to starlight has directly led to 11 new Starlight Sites in the Chicagoland area. </p>
+                            <p align="justify">In my role as Productions Chair I led a team of 60 students in the design of the lighting and set within the ten, the creation of dozens of promotional videos, and the management of all 30 hours of activities, planned down to the individual minute. </p>
+                            <hr>
+                            <img src="img/otherwork/djrucku5.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/otherwork/hero_crowdsurf.jpg" class="img-responsive img-centered" alt="">
+                            <img src="img/otherwork/hero-high5.jpg" class="img-responsive img-centered" alt="">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="otherwork-modal modal fade" id="otherworkModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Hard Earth</h2>
+                            <hr>
+                            <p align="justify">Hard Earth is a seminar I designed at Stanford University that exposes undergraduates to some of the most fascinating and challenging dilemmas surrounding environmental sustainability. </p>
+                            <hr>
+                            <img src="img/otherwork/hardearth.png" class="img-responsive img-centered" alt="">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
