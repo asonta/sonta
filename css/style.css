@@ -141,7 +141,9 @@ b, strong { font-weight: bold; }
 
 
 	/* Responsive images */
-	img { max-width: 100%; }
+	img {
+		max-width: 100%;
+	}
 
 
 
@@ -152,8 +154,8 @@ b, strong { font-weight: bold; }
 
 	/* Vertical spacing */
 	.padding-vertical {
-		padding-top: 50px;
-		padding-bottom: 50px;
+		padding-top: 25px;
+		padding-bottom: 25px;
 	}
 
 
