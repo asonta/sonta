@@ -121,27 +121,34 @@
 				<div class="desktop-12 tablet-12 columns">
 					<p class="page-desc">Inferring building occupant ties</p>
 					<p> <a href='research.html'> <b><center>(Back to research)</center></b> </a>
+					</p>
+				</div>
+				<div class="desktop-6 tablet-12 columns">
 					<p>
-					Understanding the underlying structure of building occupant dynamics is crucial to improving the effectiveness and energy efficiency of commercial buildings, as occupants fundamentally drive building design and operation. In current practice, we largely account for occupant behavior in the design and management of buildings through rudimentary schedules of presence or absence. However, the increasing availability of embedded sensors—such as plug load sensors—offers an opportunity not only to monitor occupants’ activity patterns, but also to use these patterns to gain insight into the network structure of occupants. In this work, we develop a statistical methodology for inferring this network, which comprises social, spatial, and organizational ties among occupants. This approach offers insights into the complex nature of occupant dynamics, which can ultimately serve as inputs into building design strategies that minimize energy consumption and improve occupant well-being.
+					We develop a model that successfully learns social and organizational human network structure using ambient sensing data from distributed plug load energy sensors in commercial buildings. A key goal for the design and operation of commercial buildings is to support the success of organizations within them. In modern workspaces, a particularly important goal is collaboration, which relies on physical interactions among individuals. Learning the true socio-organizational relational ties among workers can therefore help managers of buildings and organizations make decisions that improve collaboration. In this work, we introduce the Interaction Model, a method for inferring human network structure that leverages data from distributed plug load energy sensors. In a case study, we benchmark our method against network data obtained through a survey and compare its performance to other data-driven tools. We find that unlike previous methods, our method infers a network that is correlated with the survey network to a statistically significant degree (graph correlation of 0.46, significant at the 0.01 confidence level). We additionally find that our method requires only 10 weeks of sensing data, enabling dynamic network measurement. Learning human network structure through data-driven means can enable the design and operation of spaces that encourage, rather than inhibit, the success of organizations.
+
 					</p>
 					<div class="padding-vertical"></div>
 				</div>
-
-				<div class="logo-wrap">
-					<div class="desktop-12 columns">
-						<div class="item">
-							<img src="papers/i3ce.pdf" alt="" />
-							<span class="category"></span>
-						</div><!-- // .item -->
-					</div><!-- // .desktop-6 -->
-				</div><!-- // .logo-wrap -->
+				<div class="desktop-6 tablet-12 columns">
+					<div class="item">
+						<br>
+						<img src="images/interactionmodel.pdf" alt="" />
+					</div><!-- // .item -->
+				</div>
 
 
 			<div class="desktop-12 tablet-12 columns"> <h5>Publications</h5>
 
-				<a href="https://doi.org/10.1109/LES.2019.2937316">Andrew J. Sonta and Rishee K. Jain. Building Relationships: Using Embedded Plug Load Sensors for Occupant Network Inference. IEEE Embedded Systems Letters, 2019. </a> <a href="papers/ties2.pdf"> <b>[PDF]</b> </a> <br>
+			<ol>
 
-				<a href=http://doi.org/10.1145/3276774.3276779>Andrew J. Sonta and Rishee K. Jain. Inferring Occupant Ties: Automated Inference of Occupant Network Structure in Commercial Buildings. In The 5th ACM International Conference on Systems for Built Environments (BuildSys ’18), November 7–8, 2018. Shenzen, China.</a> <a href="papers/ties.pdf"> <b>[PDF]</b> </a> <br>
+				<li> <a href="https://doi.org/10.1017/dce.2020.9">Andrew Sonta and Rishee K. Jain. Learning socio-organizational network structure in buildings with ambient sensing data. <i>Data-Centric Engineering</i>, 1:e9, 2020. </a>  <a href="https://github.com/Urban-Informatics-Lab/learning-occupant-network"> <b>[Github] </b> </a> <a href="papers/ties3.pdf"> <b>[PDF]</b> </a> <br> </li>
+
+				<li> <a href="https://doi.org/10.1109/LES.2019.2937316">Andrew J. Sonta and Rishee K. Jain. Building Relationships: Using Embedded Plug Load Sensors for Occupant Network Inference. IEEE Embedded Systems Letters, 2019. </a> <a href="papers/ties2.pdf"> <b>[PDF]</b> </a> <br> </li>
+
+				<li> <a href=http://doi.org/10.1145/3276774.3276779>Andrew J. Sonta and Rishee K. Jain. Inferring Occupant Ties: Automated Inference of Occupant Network Structure in Commercial Buildings. In The 5th ACM International Conference on Systems for Built Environments (BuildSys ’18), November 7–8, 2018. Shenzen, China.</a> <a href="papers/ties.pdf"> <b>[PDF]</b> </a> <br> </li>
+
+			</ol>
 			</div>
 
 
@@ -160,7 +167,7 @@
 	<section id="footer">
 		<div class="container">
 			<div class="desktop-3 columns">
-				<p>Copyright &copy; Andrew Sonta 2019</p>
+				<p>Copyright &copy; Andrew Sonta 2020</p>
 			</div><!-- // .desktop-3 -->
 
 			<div class="desktop-9 columns">

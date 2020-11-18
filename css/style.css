@@ -33,7 +33,7 @@
 body {
 	color: #111;
 	font-family: "Lato", sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 28px;
 	-webkit-font-smoothing: antialiased;
 	/* Fix for webkit rendering */
@@ -42,7 +42,7 @@ body {
 
 @media screen and (max-width: 767px) {
 	body {
-		font-size: 12px;
+		font-size: 14px;
 		line-height: 23px;
 	}
 }
@@ -87,10 +87,16 @@ a:visited {
 	outline: 0;
 }
 
-a:hover,
+a:hover { color: #22eedd },
 a:focus { color: black; }
 p a,
 p a:visited { line-height: inherit; }
+
+ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+  padding-left: 1.5em;
+}
 
 
 
@@ -661,7 +667,7 @@ b, strong { font-weight: bold; }
 	}
 
 	#about .services p {
-		font-size: 15px;
+		font-size: 16px;
 		line-height: 28px;
 		margin-top: 20px;
 	}
@@ -690,12 +696,12 @@ b, strong { font-weight: bold; }
 
 		#works .item h3 {
 			color: #555;
-			font-size: 12px;
+			font-size: 20px;
 			line-height: 22px;
 			font-weight: bold;
 		}
 
-		#works a.permalink:hover h3 { color: #111; }
+		#works a.permalink:hover h3 { color: #22eedd; }
 
 	#works .item span.category {
 		color: #ccc;
