@@ -39,7 +39,11 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<!-- <link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet", type="text/css"> -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+
+	<!-- Code for reuseable Nav Bar
+	============================================================ -->
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 	<!-- Favicons
 	================================================== -->
@@ -51,63 +55,17 @@
 
 <body>
 
+	<!--Navigation bar-->
+	<div id="nav-placeholder">
 
+	</div>
 
-	<!-- Header - Half Logo
-	================================================== -->
-	<section id="header">
-
-		<!-- * * * * * * * * * * * * * * * * * * * * * * *
-
-			Top Bar & Menu (#nav)
-
-		* * * * * * * * * * * * * * * * * * * * * * * * -->
-		<div class="topbar">
-			<div class="container">
-
-				<!--
-					A custom jQuery plugin called typeMenu handles the menu
-					Add .hide-on-mobile to <li> elements to hide a specific item on mobile viewports
-				-->
-				<ul id="nav" class="full">
-					<li>
-						<a href="index.html">
-							<span class="count hide-on-mobile">01.</span>
-							Home
-						</a>
-					</li>
-					<li>
-						<a href="research.html">
-							<span class="count hide-on-mobile">02.</span>
-							Research
-						</a>
-					</li>
-					<li>
-						<a href="teaching.html">
-							<span class="count hide-on-mobile">03.</span>
-							Teaching
-						</a>
-					</li>
-					<li>
-						<a href="design.html">
-							<span class="count hide-on-mobile">04.</span>
-							Design
-						</a>
-					</li>
-					<li>
-						<a href="photography.html">
-							<span class="count hide-on-mobile">05.</span>
-							Photography
-						</a>
-					</li>
-
-				</ul>
-				<!-- // #nav -->
-
-			</div><!-- // .container -->
-		</div><!-- // .topbar -->
-
-	</section><!-- // #header -->
+	<script>
+	$(function(){
+	  $("#nav-placeholder").load("nav.html");
+	});
+	</script>
+	<!--end of Navigation bar-->
 
 	<div class="clear"></div>
 
@@ -159,47 +117,20 @@
 		</div><!-- // .container -->
 	</section><!-- // section#works -->
 
-		<div class="clear"></div>
+	<div class="clear"></div>
 
 
+	<!--Footer-->
+	<div id="footer-placeholder">
 
+	</div>
 
-
-
-		<!-- Footer
-	================================================== -->
-	<section id="footer">
-		<div class="container">
-			<div class="desktop-3 columns">
-				<p>Copyright &copy; Andrew Sonta 2019</p>
-			</div><!-- // .desktop-3 -->
-
-			<div class="desktop-9 columns">
-				<ul id="social">
-					<li><a href="https://www.uil.stanford.edu" class="hoverMe">Stanford Urban Informatics Lab</a></li>
-				</ul><!-- // #social -->
-				<ul id="social">
-					<li><a href="https://roblesustainability.stanford.edu/initiatives/hard-earth" class="hoverMe">Hard Earth Speaker Series</a></li>
-				</ul><!-- // #social -->
-			</div><!-- // .desktop-9 -->
-
-			<div class="clear"></div>
-
-			<div class="desktop-9 columns">
-				<div id="smedia">
-					<a href="cv.pdf"> <object type="image/jpeg" data="images/cv.jpg"></object></a>
-					<a href="http://www.linkedin.com/in/asonta"> <object type="image/jpeg" data="images/linkedin.jpg"></object></a>
-					<a href="https://scholar.google.com/citations?user=fsKlOC8AAAAJ&hl=en"> <object type="image/jpeg" data="images/gscholar.jpg"></object></a>
-					<a href="https://www.researchgate.net/profile/Andrew_Sonta"> <object type="image/jpeg" data="images/researchgate.jpg"></object></a>
-					<a href="https://github.com/Urban-Informatics-Lab"> <object type="image/jpeg" data="images/github.jpg"></object></a>
-				</div>
-			</div>
-
-			<div class="clear"></div>
-			
-		</div>
-		
-	</section><!-- // section#footer -->
+	<script>
+	$(function(){
+	  $("#footer-placeholder").load("footer.html");
+	});
+	</script>
+	<!--end of Footer-->
 
 
 	<!-- JS

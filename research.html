@@ -29,8 +29,6 @@
 	<link rel="stylesheet" type="text/css" href="css/typegrid.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-
-
 	<!--[if lt IE 8]>
 		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
 	<![endif]-->
@@ -39,7 +37,11 @@
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 
-	<!-- <link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet", type="text/css"> -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+
+	<!-- Code for reuseable Nav Bar
+	============================================================ -->
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 	<!-- Favicons
 	================================================== -->
@@ -50,61 +52,17 @@
 
 <body>
 
-	<!-- Header - Half Logo
-	================================================== -->
-	<section id="header">
+	<!--Navigation bar-->
+	<div id="nav-placeholder">
 
-		<!-- * * * * * * * * * * * * * * * * * * * * * * *
+	</div>
 
-			Top Bar & Menu (#nav)
-
-		* * * * * * * * * * * * * * * * * * * * * * * * -->
-		<div class="topbar">
-			<div class="container">
-
-				<!--
-					A custom jQuery plugin called typeMenu handles the menu
-					Add .hide-on-mobile to <li> elements to hide a specific item on mobile viewports
-				-->
-				<ul id="nav" class="full">
-					<li>
-						<a href="index.html">
-							<span class="count hide-on-mobile">01.</span>
-							Home
-						</a>
-					</li>
-					<li>
-						<a href="research.html">
-							<span class="count hide-on-mobile">02.</span>
-							Research
-						</a>
-					</li>
-					<li>
-						<a href="teaching.html">
-							<span class="count hide-on-mobile">03.</span>
-							Teaching
-						</a>
-					</li>
-					<li>
-						<a href="design.html">
-							<span class="count hide-on-mobile">04.</span>
-							Design
-						</a>
-					</li>
-					<li>
-						<a href="photography.html">
-							<span class="count hide-on-mobile">05.</span>
-							Photography
-						</a>
-					</li>
-
-				</ul>
-				<!-- // #nav -->
-
-			</div><!-- // .container -->
-		</div><!-- // .topbar -->
-
-	</section><!-- // #header -->
+	<script>
+	$(function(){
+	  $("#nav-placeholder").load("nav.html");
+	});
+	</script>
+	<!--end of Navigation bar-->
 
 	<div class="clear"></div>
 
@@ -209,115 +167,28 @@
 			</div><!-- // .logo-wrap -->
 
 			<div class="clear"></div>
-
-			<div class="desktop-12 tablet-12 columns">
-				<hr>
-			</div>
 			<div class="padding-vertical"></div>
-			
-			<div class="desktop-12 tablet-12 columns"> <h5>Selected Journal Publications</h5>
-
-				<ol>
-
-				<li> <a href="https://doi.org/10.1016/j.enbuild.2021.110815">Andrew Sonta, Thomas R. Dougherty, and Rishee K. Jain. Data-driven optimization of building layouts for energy efficiency. <i>Energy and Buildings</i>, 238:110815, 2021.</a> <a href="papers/optimization2.pdf"> <b>[PDF]</b></a><br>
-
-				<li> <a href="https://doi.org/10.1017/dce.2020.9">Andrew Sonta and Rishee K. Jain. Learning socio-organizational network structure in buildings with ambient sensing data. <i>Data-Centric Engineering</i>, 1:e9, 2020. </a>  <a href="https://github.com/Urban-Informatics-Lab/learning-occupant-network"> <b>[Github] </b> </a> <a href="papers/ties3.pdf"> <b>[PDF]</b> </a> <br> </li>
-
-				<li> <a href="https://doi.org/10.1109/LES.2019.2937316">Andrew Sonta and Rishee K. Jain. Building relationships: Using embedded plug load sensors for occupant network inference. <i>IEEE Embedded Systems Letters</i>, 12(2), 2019. </a> <a href="papers/ties2.pdf"> <b>[PDF]</b> </a> <br> </li>
-
-
-				<li> <a href="https://doi.org/10.1016/j.aei.2018.04.009">Andrew Sonta, Perry E. Simmons, and Rishee K. Jain. Understanding building occupant activities at scale: An integrated knowledge-based and data-driven approach. <i>Advanced Engineering Informatics</i>, 37, 2018.</a> <a href="https://github.com/Urban-Informatics-Lab/understanding-occupant-activities-public"> <b>[GitHub]</b> </a> <a href="papers/inference.pdf"> <b>[PDF]</b> </a> <br> </li>
-
-				<li> <a href="https://doi.org/10.1061/(ASCE)CP.1943-5487.0000663">Andrew Sonta, Rishee K. Jain, Rimas Gulbinas, José M. F. Moura, and John E. Taylor. OESPG: Computational Framework for Multidimensional Analysis of Occupant Energy Use Data in Commercial Buildings. <i>Journal of Computing in Civil Engineering</i>, 31(4), 2017.</a> <a href="papers/oespg.pdf"> <b>[PDF]</b> </a> <br> <br> </li>
-
-				</ol>
-
-			</div>
-
-			<div class="desktop-12 tablet-12 columns"> <h5>Selected Conference Proceedings</h5>
-
-				<ol>
-
-				<li> <a href="http://doi.org/10.1145/3408308.3427616">Thomas R. Dougherty, Andrew Sonta, and Rishee K. Jain. Intelligent network topology based post-pandemic reintroduction policies for offices. <i> In Proceedings of the 7th ACM International Conference on Systems for Energy-Efficient Buildings, Cities, and Transportation (Buildsys '20)</i>, 2020. Virtual Event, Japan. </a> <a href="papers/covid.pdf"> <b>[PDF]</b> </a> <br>
-
-				<li> <a href="http://www.energy-proceedings.org/data-driven-building-layout-optimization-for-energy-efficiency/">Andrew Sonta and Rishee K. Jain. Data-driven building layout optimization for energy efficiency. In Proceedings of the International Conference on Applied Energy, 2019. Vasteras, Sweden. </a> <a href="papers/optimization.pdf"> <b>[PDF]</b> </a> <br>
-
-				<li> <a href="https://doi.org/10.1061/9780784482438.058">Andrew Sonta and Rishee K. Jain. Optimizing neighborhood-scale walkability. <i>In Congress on Computing in Civil Engineering, Proceedings</i>, 2019. Atlanta, GA.</a> <a href="papers/walkability.pdf"> <b>[PDF]</b> </a> <br> </li>
-
-				<li> <a href=http://doi.org/10.1145/3276774.3276779>Andrew Sonta and Rishee K. Jain. Inferring Occupant Ties: Automated Inference of Occupant Network Structure in Commercial Buildings. <i>In Proceedings of the 5th ACM International Conference on Systems for Built Environments (BuildSys ’18)</i>, November 7–8, 2018. Shenzen, China.</a> <a href="papers/ties.pdf"> <b>[PDF]</b> </a> <br> </li>
-
-				<li> <a href="https://doi.org/10.1061/9780784480823.035">Andrew Sonta, Perry E. Simmons, and Rishee K. Jain. Towards automated inference of occupant behavioral dynamics using plug-load energy data. <i>In Congress on Computing in Civil Engineering, Proceedings</i>, June 2017. Seattle, WA.</a> <a href="papers/iwcce-inference.pdf"> <b>[PDF]</b> </a> <br> <br> </li>
-
-				</ol>
-
-			</div>
-
-			<div class="desktop-12 tablet-12 columns"> <h5>Dissertation</h5>
-
-				<ol>
-
-				<li> <a href="https://searchworks.stanford.edu/view/13751297"> Integrating social and environmental perspectives in building design and operation. Stanford University, 2020. </a> <a href="papers/dissertation.pdf"> <b>[PDF]</b> </a> <br> <br> </li>
-
-				</ol>
-
-			</div>
-
-			<div class="desktop-12 tablet-12 columns"> <h5>Posters/Talks</h5>
-
-				<ol>
-
-				<li> <a href="papers/i3ce.pdf"> Andrew Sonta and Rishee K. Jain. Inferring occupant ties in dynamic office environments. <i>International Conference on Computing in Civil Engineering</i>, 2019. Atlanta, GA. </a> <a href="papers/i3ce.pdf"> <b>[PDF]</b> </a> <br> <br> </li>
-
-				</ol>
-
-			</div>
 
 
 		</div><!-- // .container -->
 	</section><!-- // section#works -->
 
-		<div class="clear"></div>
+	<div class="clear"></div>
 
 
+	<!--Footer-->
+	<div id="footer-placeholder">
 
+	</div>
 
+	<script>
+	$(function(){
+	  $("#footer-placeholder").load("footer.html");
+	});
+	</script>
+	<!--end of Footer-->
 
-
-		<!-- Footer
-	================================================== -->
-	<section id="footer">
-		<div class="container">
-			<div class="desktop-3 columns">
-				<p>Copyright &copy; Andrew Sonta 2020</p>
-			</div><!-- // .desktop-3 -->
-
-			<div class="desktop-9 columns">
-				<ul id="social">
-					<li><a href="https://www.uil.stanford.edu" class="hoverMe">Stanford Urban Informatics Lab</a></li>
-				</ul><!-- // #social -->
-				<ul id="social">
-					<li><a href="https://roblesustainability.stanford.edu/initiatives/hard-earth" class="hoverMe">Hard Earth Speaker Series</a></li>
-				</ul><!-- // #social -->
-			</div><!-- // .desktop-9 -->
-
-			<div class="clear"></div>
-
-			<div class="desktop-9 columns">
-				<div id="smedia">
-					<a href="cv.pdf"> <object type="image/jpeg" data="images/cv.jpg"></object></a>
-					<a href="http://www.linkedin.com/in/asonta"> <object type="image/jpeg" data="images/linkedin.jpg"></object></a>
-					<a href="https://scholar.google.com/citations?user=fsKlOC8AAAAJ&hl=en"> <object type="image/jpeg" data="images/gscholar.jpg"></object></a>
-					<a href="https://www.researchgate.net/profile/Andrew_Sonta"> <object type="image/jpeg" data="images/researchgate.jpg"></object></a>
-					<a href="https://github.com/Urban-Informatics-Lab"> <object type="image/jpeg" data="images/github.jpg"></object></a>
-				</div>
-			</div>
-
-			<div class="clear"></div>
-			
-		</div>
-		
-	</section><!-- // section#footer -->
-
+	<div class="clear"></div>
 
 	<!-- JS
 	================================================== -->

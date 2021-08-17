@@ -171,8 +171,8 @@ b, strong { font-weight: bold; }
 
 	/* Vertical spacing */
 	.padding-vertical {
-		padding-top: 25px;
-		padding-bottom: 25px;
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 
 
@@ -398,16 +398,13 @@ b, strong { font-weight: bold; }
 		overflow: visible;
 	}
 
-	@media screen and (min-width: 768px) and (max-width: 959px) {
+	@media screen and (max-width: 959px) {
 		ul#nav {
-			font-size: 11px;
-			line-height: 21px;
+			font-size: 9px;
+			line-height: 15px;
 		}
 	}
 
-	@media screen and (max-width: 767px) {
-		ul#nav { display: none; }
-	}
 
 	ul#nav li { position: relative; }
 

@@ -9,7 +9,7 @@
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">
-	<title>Andrew Sonta</title>
+	<title>Andrew Sonta | Teaching</title>
 	<meta name="description" content="Andrew Sonta's website">
 	<meta name="author" content="">
 
@@ -29,8 +29,6 @@
 	<link rel="stylesheet" type="text/css" href="css/typegrid.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-
-
 	<!--[if lt IE 8]>
 		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
 	<![endif]-->
@@ -40,6 +38,10 @@
 	<![endif]-->
 
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+
+	<!-- Code for reuseable Nav Bar
+	============================================================ -->
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 	<!-- Favicons
 	================================================== -->
@@ -51,63 +53,17 @@
 
 <body>
 
+	<!--Navigation bar-->
+	<div id="nav-placeholder">
 
+	</div>
 
-	<!-- Header - Half Logo
-	================================================== -->
-	<section id="header">
-
-		<!-- * * * * * * * * * * * * * * * * * * * * * * *
-
-			Top Bar & Menu (#nav)
-
-		* * * * * * * * * * * * * * * * * * * * * * * * -->
-		<div class="topbar">
-			<div class="container">
-
-				<!--
-					A custom jQuery plugin called typeMenu handles the menu
-					Add .hide-on-mobile to <li> elements to hide a specific item on mobile viewports
-				-->
-				<ul id="nav" class="full">
-					<li>
-						<a href="index.html">
-							<span class="count hide-on-mobile">01.</span>
-							Home
-						</a>
-					</li>
-					<li>
-						<a href="research.html">
-							<span class="count hide-on-mobile">02.</span>
-							Research
-						</a>
-					</li>
-					<li>
-						<a href="teaching.html">
-							<span class="count hide-on-mobile">03.</span>
-							Teaching
-						</a>
-					</li>
-					<li>
-						<a href="design.html">
-							<span class="count hide-on-mobile">04.</span>
-							Design
-						</a>
-					</li>
-					<li>
-						<a href="photography.html">
-							<span class="count hide-on-mobile">05.</span>
-							Photography
-						</a>
-					</li>
-
-				</ul>
-				<!-- // #nav -->
-
-			</div><!-- // .container -->
-		</div><!-- // .topbar -->
-
-	</section><!-- // #header -->
+	<script>
+	$(function(){
+	  $("#nav-placeholder").load("nav.html");
+	});
+	</script>
+	<!--end of Navigation bar-->
 
 	<div class="clear"></div>
 
@@ -138,7 +94,7 @@
 							<img src="images/ecs.png" alt=""/>
 
 							<p class="excerpt">
-								Environmental Control Systems in the Architecture and Community Development program at the University of San Francisco focuses on the passive and active ways we create comfortable building environments through heating, cooling, ventilation, and lighting. We discuss theory and use practical tools to evaluate designs.
+								Environmental Control Systems in the Architecture and Community Development program at the University of San Francisco focuses on the passive and active ways we create comfortable building environments. In this course, we covered theory and used practical tools to evaluate designs. We explored sustainable heating, cooling, ventilation, and lighting systems. 
 							</p>
 
 				</div><!-- // .desktop-9 -->
@@ -155,7 +111,7 @@
 			<div class="desktop-3 tablet-12 columns">
 				<div class="box-meta">
 					<span class="category">Stanford University</span><br />
-					<span class="date">Ongoing since Autumn 2016</span>
+					<span class="date">Quarterly 2016 to 2018</span>
 				</div><!-- // .box-meta -->
 			</div><!-- // .desktop-3 -->
 
@@ -229,7 +185,7 @@
 			<div class="desktop-3 tablet-12 columns">
 				<div class="box-meta">
 					<span class="category">Stanford University</span><br />
-					<span class="date">Quarterly since 2016</span>
+					<span class="date">Quarterly 2016 to 2018</span>
 				</div><!-- // .box-meta -->
 			</div><!-- // .desktop-3 -->
 
@@ -242,7 +198,7 @@
 <!-- 							<img src="images/splash.jpg" alt=""/>
  -->
 							<p class="excerpt">
-								Along with other members of the Urban Informatics Lab, I co-teach a two-hour course that introduces data-driven urban design as part of the <a href='https://stanfordesp.org'> Stanford Splash</a> program. The course is intended for high school students of all years, and it incorporates many of the ideas we often think about in our research.
+								Along with other members of the Urban Informatics Lab, I co-taught a two-hour course that introduces data-driven urban design as part of the <a href='https://stanfordesp.org'> Stanford Splash</a> program. The course is intended for high school students of all years, and it incorporates many of the ideas we often think about in our research.
 							</p>
 
 							<p class="excerpt">
@@ -267,40 +223,17 @@
 
 
 
-		<!-- Footer
-	================================================== -->
-	<section id="footer">
-		<div class="container">
-			<div class="desktop-3 columns">
-				<p>Copyright &copy; Andrew Sonta 2019</p>
-			</div><!-- // .desktop-3 -->
+	<!--Footer-->
+	<div id="footer-placeholder">
 
-			<div class="desktop-9 columns">
-				<ul id="social">
-					<li><a href="https://www.uil.stanford.edu" class="hoverMe">Stanford Urban Informatics Lab</a></li>
-				</ul><!-- // #social -->
-				<ul id="social">
-					<li><a href="https://roblesustainability.stanford.edu/initiatives/hard-earth" class="hoverMe">Hard Earth Speaker Series</a></li>
-				</ul><!-- // #social -->
-			</div><!-- // .desktop-9 -->
+	</div>
 
-			<div class="clear"></div>
-
-			<div class="desktop-9 columns">
-				<div id="smedia">
-					<a href="cv.pdf"> <object type="image/jpeg" data="images/cv.jpg"></object></a>
-					<a href="http://www.linkedin.com/in/asonta"> <object type="image/jpeg" data="images/linkedin.jpg"></object></a>
-					<a href="https://scholar.google.com/citations?user=fsKlOC8AAAAJ&hl=en"> <object type="image/jpeg" data="images/gscholar.jpg"></object></a>
-					<a href="https://www.researchgate.net/profile/Andrew_Sonta"> <object type="image/jpeg" data="images/researchgate.jpg"></object></a>
-					<a href="https://github.com/Urban-Informatics-Lab"> <object type="image/jpeg" data="images/github.jpg"></object></a>
-				</div>
-			</div>
-
-			<div class="clear"></div>
-			
-		</div>
-		
-	</section><!-- // section#footer -->
+	<script>
+	$(function(){
+	  $("#footer-placeholder").load("footer.html");
+	});
+	</script>
+	<!--end of Footer-->
 
 
 	<!-- JS
@@ -313,8 +246,8 @@
 	<script src="js/jQuery.BlackAndWhite.min.js"></script>
 	<script src="js/modernizr.js"></script>
 	<script src="js/less-1.4.0.min.js"></script>
-	<script src="js/jquery.typeMenu.js"></script>
-	<script src="js/jquery.typeSticky.js"></script>
+	<!-- <script src="js/jquery.typeMenu.js"></script> -->
+	<!-- <script src="js/jquery.typeSticky.js"></script> -->
 
 
 
