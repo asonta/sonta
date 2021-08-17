@@ -51,6 +51,8 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
 
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 	<!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="images/favicon.ico">
@@ -60,62 +62,17 @@
 
 <body>
 
+	<!--Navigation bar-->
+	<div id="nav-placeholder">
 
-	<!-- Header - Half Logo
-	================================================== -->
-	<section id="header">
+	</div>
 
-		<!-- * * * * * * * * * * * * * * * * * * * * * * *
-
-			Top Bar & Menu (#nav)
-
-		* * * * * * * * * * * * * * * * * * * * * * * * -->
-		<div class="topbar">
-			<div class="container">
-
-				<!--
-					A custom jQuery plugin called typeMenu handles the menu
-					Add .hide-on-mobile to <li> elements to hide a specific item on mobile viewports
-				-->
-				<ul id="nav" class="full">
-					<li>
-						<a href="index.html">
-							<span class="count hide-on-mobile">01.</span>
-							Home
-						</a>
-					</li>
-					<li>
-						<a href="research.html">
-							<span class="count hide-on-mobile">02.</span>
-							Research
-						</a>
-					</li>
-					<li>
-						<a href="teaching.html">
-							<span class="count hide-on-mobile">03.</span>
-							Teaching
-						</a>
-					</li>
-					<li>
-						<a href="design.html">
-							<span class="count hide-on-mobile">04.</span>
-							Design
-						</a>
-					</li>
-					<li>
-						<a href="photography.html">
-							<span class="count hide-on-mobile">05.</span>
-							Photography
-						</a>
-					</li>
-
-				</ul>
-				<!-- // #nav -->
-
-			</div><!-- // .container -->
-		</div><!-- // .topbar -->
-
-	</section><!-- // #header -->
+	<script>
+	$(function(){
+	  $("#nav-placeholder").load("./header.html");
+	});
+	</script>
+	<!--end of Navigation bar-->
 
 	<div class="logo-wrap">
 		<!-- <h1>
