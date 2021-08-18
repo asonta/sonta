@@ -687,6 +687,11 @@ b, strong { font-weight: bold; }
 			3.5 Works
 	---------------------------------------------------*/
 
+	#works .container h2 {
+		font-size: 32px;
+		line-hieght: 42px;
+	}	
+
 	#works .item {
 		margin-bottom: 40px;
 	}
@@ -696,6 +701,7 @@ b, strong { font-weight: bold; }
 			font-size: 20px;
 			line-height: 22px;
 			font-weight: bold;
+			margin-bottom: 10px;
 		}
 
 		#works a.permalink:hover h3 { color: #22eedd; }
@@ -1170,7 +1176,10 @@ b, strong { font-weight: bold; }
 	#archive .entry { margin-bottom: 80px; }
 	#archive .entry .box-content { padding-top: 30px; }
 
-
+	#archive .container h2 {
+		font-size: 32px;
+		line-height: 42px;
+	}
 
 	/* Meta */
 	#archive .box-meta {
