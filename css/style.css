@@ -277,11 +277,11 @@ b, strong { font-weight: bold; }
 	.page p.page-desc {
 		color: #222;
 		font-family: "Lato" sans-serif;
-		font-size: 48px;
-		line-height: 60px;
+		font-size: 36px;
+		line-height: 40px;
 		font-weight: 300;
-		margin-top: 30px;
-		margin-bottom: 50px;
+		margin-top: 50px;
+		margin-bottom: 20px;
 		text-align: center;
 	}
 
@@ -299,14 +299,14 @@ b, strong { font-weight: bold; }
 		@media screen and (max-width: 767px) {
 			.page p.page-desc {
 				font-size: 24px;
-				line-height: 42px;
+				line-height: 28px;
 			}
 		}
 
 		@media screen and (max-width: 479px) {
 			.page p.page-desc {
 				font-size: 20px;
-				line-height: 36px;
+				line-height: 26px;
 			}
 		}
 
