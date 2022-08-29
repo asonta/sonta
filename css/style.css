@@ -80,7 +80,11 @@ h6 { font-weight: bold; }
 
 
 /* Links */
-a,
+a {
+	text-decoration: none;
+	text-decoration-color: lightgray;
+	color: #324163;
+},
 a:visited {
 	color: #333;
 	text-decoration: none;
